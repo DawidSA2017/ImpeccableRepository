@@ -2,7 +2,7 @@
 """
 Created on Thu Aug 21 13:13:32 2014
 
-@author: canton
+@author: user
 """
 import time, random
 
@@ -24,3 +24,5 @@ if __name__ == "__main__":
         writeFile(filename, rnd)
         counter += 1
         time.sleep(1)
+
+#1
