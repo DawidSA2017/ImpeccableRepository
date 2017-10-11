@@ -23,7 +23,8 @@ if __name__ == "__main__":
         #print(rnd)
         writeFile(filename, rnd)
         counter += 1
-        time.sleep(1)
+        time.sleep(2)
 
 #1
 #2 increased limit
+#3 increased sleep
