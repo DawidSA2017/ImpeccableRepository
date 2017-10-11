@@ -18,7 +18,7 @@ def writeFile(filename, content):
 if __name__ == "__main__":
     while counter < mymax:
         """
-            Repeat
+            Repeat until limit
         """
         rnd = random.randint(10000, 19999)
         writeFile(filename, rnd)
@@ -31,3 +31,4 @@ if __name__ == "__main__":
 #4 print removed
 #5 Formatting
 #6
+#7 Comment2
