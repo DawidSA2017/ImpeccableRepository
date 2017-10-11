@@ -20,7 +20,6 @@ def writeFile(filename, content):
 if __name__ == "__main__":
     while counter < mymax:
         rnd = random.randint(10000, 19999)
-        #print(rnd)
         writeFile(filename, rnd)
         counter += 1
         time.sleep(2)
@@ -28,3 +27,4 @@ if __name__ == "__main__":
 #1
 #2 increased limit
 #3 increased sleep
+#4 print removed
