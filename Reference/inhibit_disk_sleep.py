@@ -8,7 +8,7 @@ import time, random
 
 filename = "inhibit-sleep.txt"
 counter = 0
-mymax   = 1000
+mymax   = 10000
 
 
 def writeFile(filename, content):
@@ -26,3 +26,4 @@ if __name__ == "__main__":
         time.sleep(1)
 
 #1
+#2 increased limit
